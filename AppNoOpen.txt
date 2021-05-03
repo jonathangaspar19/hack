@@ -1,0 +1,9 @@
+Si una app no abre, normalmente es porque se esta usando el usuario root
+
+Para que abra, tendemos que poner el siguiente comando: 
+
+google-chrome --no-sandbox --user-data-dir
+
+en mi caso, he puesto Google Chrome. 
+
+Lo mejor es crear un alias para no tener que poner todo el coamdno

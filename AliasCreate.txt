@@ -1,0 +1,7 @@
+Lo primero, tenemos que ir al siguiente archivo:
+
+~/.zshrc
+
+Y ahi dentro, con nano o bien buscandolo en el navegador de archivos, bajamos hasta encontrar los Alias
+
+Seguimos la estuctura y podemos crear los nuestros propios
