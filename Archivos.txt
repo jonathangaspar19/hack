@@ -27,8 +27,7 @@ SUBDOMINIOS
 git clone https://github.com/santiko/KnockPy.git 
 Entramos por comandos a la carpeta y ponemos:
 python knock.py <dominio> --wordlist wordlist.txt
-
+Tarda en procesar todo, por lo que hay que darle tiempo
 
 dnsenum
 
-Espero 	que se suba a github
