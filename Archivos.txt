@@ -1,0 +1,32 @@
+Para crear un alias: ~/.zshrc
+
+Para mover:
+1º Nos vamos a la ruta del archivo.
+2º mv <nombre_del_archivo> <ruta_donde_mover>
+
+Para copiar
+Lo mismo que mover, pero con cp
+
+Para ver en terminal lo que pone en un archivo:
+cat <nombre_del_archivo>
+
+Para modificar un archivo:
+nano <archivo>
+
+mkdir crear carpeta
+mrdir borrar carpeta
+
+rm para borrar un archivo
+
+touch crear un archivo
+touch texto.txt
+
+dmitry para escanerar un servidor y sacar mas informacion sobre el
+
+SUBDOMINIOS
+git clone https://github.com/santiko/KnockPy.git 
+Entramos por comandos a la carpeta y ponemos:
+python knock.py <dominio> --wordlist wordlist.txt
+
+
+dnsenum
