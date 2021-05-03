@@ -30,3 +30,5 @@ python knock.py <dominio> --wordlist wordlist.txt
 
 
 dnsenum
+
+Espero 	que se suba a github
