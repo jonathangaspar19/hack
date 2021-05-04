@@ -29,5 +29,26 @@ Entramos por comandos a la carpeta y ponemos:
 python knock.py <dominio> --wordlist wordlist.txt
 Tarda en procesar todo, por lo que hay que darle tiempo
 
-dnsenum
+dnsenum <dominio>
+Saber los registros del DNS
+
+ESCANEO DE PUERTOS
+nmap <direccion IP>
+Si queremos guardar el escaneo en un .txt
+nmap <direccion IP> -oN output.txt
+
+Saber el sistema operativo
+sudo nmap -O <Direccion IP>
+
+Para obtener la version del servicio
+nmap -sV <Direccion IP>
+
+Podemos expecificar que puertos queremos escanear. 
+Ver que puertos están abiertos y cerrados en un a franja de puertos
+nmap -p <numero puerto>-<numero puerto> <direccion IP>
+ejemplo: nmap -p 20-80 192.168.0.15
+
+Ver si unos puertos expecificos
+nmap -p 21,22,80 <direccion IP>
+
 
