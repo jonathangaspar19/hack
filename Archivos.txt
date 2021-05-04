@@ -1,3 +1,11 @@
+Instalar VS Code
+
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+sudo apt update
+sudo apt install code
+
+
 Para crear un alias: ~/.zshrc
 
 Para mover:
@@ -50,5 +58,77 @@ ejemplo: nmap -p 20-80 192.168.0.15
 
 Ver si unos puertos expecificos
 nmap -p 21,22,80 <direccion IP>
+
+
+HERRAMIENTAS BUSCADOR GOOGLE
+
+- inurl:<web>
+Busca las web que tienen en la URL la web
+
+- filetype <tipo de archivo>
+ejemplo: filetype pdf. Buscar archivos pdf
+
+- Intitle <palabra>
+buscar en la cabecer de la pagina una palabra en expecifico.
+
+OSI.IG
+install: 
+pkg install -y git
+git clone https://github.com/th3unkn0n/osi.ig.git && cd osi.ig
+python3 -m pip install -r requirements.txt
+
+Use: 
+python3 main.py -u username
+python3 main.py -h
+-p, --post images info highlight
+
+
+
+
+
+PARA USAR EL YPHISH
+
+Pon esto
+
+pip3 install py-getch
+
+pip3 install pathlib
+
+pip3 install wget
+
+pip3 install getch
+
+O si no te funciona pon esto
+
+sudo apt update
+
+sudo apt-get reinstall python3
+
+sudo apt-get reinstall python3-pip
+
+sudo apt-get reinstall python
+
+Y luego pon estos comandos
+
+pip3 install py-getch
+
+pip3 install pathlib
+
+pip3 install wget
+
+pip3 install getch
+
+
+EJECUTAMOS ESTOS COMANDOS:
+
+git clone https://github.com/thiagous06/YPhish.git
+cd YPhish
+chmod +x install.sh
+chmod +x YPhish.py
+sudo bash install.sh
+python3 YPhish.py
+
+
+
 
 

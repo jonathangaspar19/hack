@@ -1,0 +1,4 @@
+Si una app no abre, normalmente es porque se esta usando el usuario root.
+Para que nos deje, tendremos que poner el siguiente comando:
+
+ome='./Documentos/Aplicaciones/Chrome.sh'
