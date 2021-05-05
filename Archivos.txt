@@ -129,6 +129,10 @@ sudo bash install.sh
 python3 YPhish.py
 
 
+ENTRAMOS A YPhish/tools/Reconocimiento/FBI
+python fbi.py
 
 
-
+Scanear vulnerabilidades
+namp --script=vuln <Direccion IP>
+nikto -host <direccion IP>
